@@ -33,7 +33,7 @@ message TransactionRequest {
 message TransactionResponse {
     string transaction_id = 1;
     string status = 2;
-    string amount = 3;
+    double amount = 3;
     string timestamp = 4;
 }
 
